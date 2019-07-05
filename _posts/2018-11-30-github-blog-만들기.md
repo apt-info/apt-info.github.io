@@ -16,7 +16,7 @@ tags:
 오늘은 github의 page기능을 사용하여 blog를 만드는 방법을 알아보겠습니다.
 
 > 이 포스팅은 jekyll theme를 검색 -> clone -> 커스터마이징하여 blog를 생성하는 방법을 설명합니다. <br>
-clone없이 바로 사용하는 방법은 [이 포스트](https://inasie.github.io/it일반/jekyll-블로그-만들기)를 참고해주세요
+clone없이 바로 사용하는 방법은 [이 포스트](https://apt-info.github.io/it일반/jekyll-블로그-만들기)를 참고해주세요
 
 ## 1. Repository 생성
 
@@ -35,7 +35,7 @@ clone없이 바로 사용하는 방법은 [이 포스트](https://inasie.github.
 
 빈 repository가 생성되었습니다.
 
-![1](https://inasie.github.io/images/2018-11-30-github-blog-만들기/1.png)
+![1](https://apt-info.github.io/images/2018-11-30-github-blog-만들기/1.png)
 
 ## 2. Page 접속 설정
 
@@ -45,7 +45,7 @@ github page 기능을 사용하기 위해서는 repository 설정이 필요합�
 
 repostory Settings 메뉴에 들어갑니다.
 
-![2](https://inasie.github.io/images/2018-11-30-github-blog-만들기/2.png)
+![2](https://apt-info.github.io/images/2018-11-30-github-blog-만들기/2.png)
 
 Option항목의 하단부로 내려가면 GitHub Pages 항목이 있습니다.
 
@@ -54,11 +54,11 @@ Source 가 'None'으로 되어있는데 master branch로 변경해줍니다.
 
 그리고 Choose theme를 할 수 있는데, 저는 여기에 없는 다른 jekyll theme를 사용할 것이므로 무시하고 save를 누릅니다.
 
-![3](https://inasie.github.io/images/2018-11-30-github-blog-만들기/3.png)
+![3](https://apt-info.github.io/images/2018-11-30-github-blog-만들기/3.png)
 
 save를 누르고 나면 Github Pages항목에 'Your site is ready to be published at xxx' 문구가 생긴것을 볼 수 있습니다.<br>
 
-![4](https://inasie.github.io/images/2018-11-30-github-blog-만들기/4.png)
+![4](https://apt-info.github.io/images/2018-11-30-github-blog-만들기/4.png)
 
 아직 별다른 내용이 없기 때문에 링크를 들어가면 README.md에 작성된 내용이 보여집니다.
 
@@ -72,7 +72,7 @@ save를 누르고 나면 Github Pages항목에 'Your site is ready to be publish
 
 theme를 결정하였으면 Homepage에 접속합니다.
 
-![5](https://inasie.github.io/images/2018-11-30-github-blog-만들기/5.png)
+![5](https://apt-info.github.io/images/2018-11-30-github-blog-만들기/5.png)
 
 그럼 위와같이 _includes, _layouts, _posts, ... 와 같이 repository가 구성되어 있는 것이 보입니다.
 
@@ -87,7 +87,7 @@ git clone https://github.com/joshgerdes/jekyll-uno.git
 내 repository에 복사해야 하기 때문에 위에서 만든 repoistory도 clone합니다.
 
 ```
-git clone https://github.com/inasie/apt-deal-info.git
+git clone https://github.com/apt-info/apt-deal-info.git
 ```
 
 jekyll-uno의 파일들을 내 repo 에 복사합니다. (README.md 제외)
@@ -128,17 +128,17 @@ _config.yml을 열어 Page의 주요 설정을 나에 맞게 수정합니다.
 # Site settings
 title: 지역 별 아파트 실거래가 등록 정보
 description: '오늘 등록된 아파트 실거래가 정보 제공'
-url: 'https://inasie.github.io'
+url: 'https://apt-info.github.io'
 baseurl: '/apt-deal-info'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'inasie'
-  email: inasie@naver.com
+  name: 'apt-info'
+  email: apt-info@naver.com
   twitter_username:
   facebook_username:
-  github_username: inasie
+  github_username: apt-info
   linkedin_username:
 ```
 
@@ -154,7 +154,7 @@ git push
 
 https://{id}.github.io/{repostitory} 에 접속하여 blog가 제대로 보이는지 확인합니다.
 
-![6](https://inasie.github.io/images/2018-11-30-github-blog-만들기/6.png)
+![6](https://apt-info.github.io/images/2018-11-30-github-blog-만들기/6.png)
 
 제가 clone 한 jekyll-uno의 경우 _posts에 글 하나가 작성되어있어 blog를 눌러보면 해당 포스트가 보입니다.
 
@@ -204,7 +204,7 @@ git push
 
 > 글 포멧이 잘못되어 페이지 생성 시 에러가 난 경우 에러 내용에 대한 메일이 날라옵니다.
 
-![7](https://inasie.github.io/images/2018-11-30-github-blog-만들기/7.png)
+![7](https://apt-info.github.io/images/2018-11-30-github-blog-만들기/7.png)
 
 ## 8. 결론
 
@@ -218,6 +218,6 @@ git push
 
 ---
 
-이 글에서 사용한 repository 보기 : <https://github.com/inasie/apt-deal-info>
+이 글에서 사용한 repository 보기 : <https://github.com/apt-info/apt-deal-info>
 
-이 글에서 작성한 blog 보기 : <https://inasie.github.io/apt-deal-info>
+이 글에서 작성한 blog 보기 : <https://apt-info.github.io/apt-deal-info>
