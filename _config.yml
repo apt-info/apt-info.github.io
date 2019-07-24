@@ -48,7 +48,7 @@ footer-links:
 # Text under the icons in footer
 footer-text:
 
-disqus: # <username>.disqus.com
+disqus: apt-info # <username>.disqus.com
 google_analytics: UA-143349664-1
 
 url: 'https://apt-info.github.io'
