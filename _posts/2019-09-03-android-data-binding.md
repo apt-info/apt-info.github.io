@@ -1,5 +1,5 @@
 ---
-title: (android) MVVM - data binding 시작하기
+title: (android) MVVM 1. data binding 시작하기
 categories:
 - 개발
 tags:
