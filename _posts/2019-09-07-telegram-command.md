@@ -38,8 +38,12 @@ def stop(bot, update: Update):
     logging.info('>>> start')
 
 
+TELEGRAM_BOT_TOKEN = accounts.TELEGRAM_DEV_DEMO_BOT # 생성한 bot token으로 변경해주세요
+updater = Updater(TELEGRAM_BOT_TOKEN)
 updater.dispatcher.add_handler(CommandHandler('start', start)) # start command를 요청하면 start function 실행
 updater.dispatcher.add_handler(CommandHandler('stop', stop))
+updater.start_polling() # command 입력받을때 까지 대기 시작
+updater.idle()
 ```
 
 # 3. command + arg 처리
