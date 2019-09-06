@@ -1,5 +1,5 @@
 ---
-title: (python) telegram bot 이용하기
+title: (python) telegram bot 1. 봇 만들고 메시지 보내보기
 categories:
 - 개발
 tags:
@@ -98,7 +98,7 @@ updater.bot.send_message(chat_id={위에서 얻은 xxxx값}, text='Hello telegra
 
 # Code
 
-전체 코드는 [https://github.com/apt-info/samples](https://github.com/apt-info/samples/blob/master/python/20190904-telegram-bot.py) 에서 확인하실 수 있습니다.
+전체 코드는 [https://github.com/apt-info/samples](https://github.com/apt-info/samples/blob/master/python/telegram1.py) 에서 확인하실 수 있습니다.
 
 
 ```info

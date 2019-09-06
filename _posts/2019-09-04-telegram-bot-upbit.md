@@ -1,5 +1,5 @@
 ---
-title: (python) 1시간마다 업비트 코인 가격을 Telegram으로 전송
+title: (python) telegram bot 2. 업비트 코인 가격을 메시지로 전송
 categories:
 - 개발
 tags:
@@ -77,5 +77,5 @@ INTERVAL_MIN 을 60으로 변경하면 매 시 정각마다 메시지를 보냅�
 
 # Code
 
-전체 코드는 [https://github.com/apt-info/samples](https://github.com/apt-info/samples/blob/master/python/20190904-telegram-upbit.py) 에서 확인하실 수 있습니다.
+전체 코드는 [https://github.com/apt-info/samples](https://github.com/apt-info/samples/blob/master/python/telegram2-upbit.py) 에서 확인하실 수 있습니다.
 

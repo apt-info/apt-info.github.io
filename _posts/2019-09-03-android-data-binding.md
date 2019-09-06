@@ -200,4 +200,4 @@ TextView의 text를 "Hello World!" 에서 "@{text}"로 변경합니다.
 
 # Code
 
-전체 코드는 [https://github.com/apt-info/samples/android/DataBinding](https://github.com/apt-info/samples/tree/master/android/DataBinding) 에서 확인하실 수 있습니다.
+전체 코드는 [https://github.com/apt-info/samples](https://github.com/apt-info/samples/tree/master/android/DataBinding) 에서 확인하실 수 있습니다.
