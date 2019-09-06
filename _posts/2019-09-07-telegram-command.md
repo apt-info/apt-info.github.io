@@ -33,9 +33,8 @@ def start(bot: Bot, update: Update):
     logging.info('>>> start')
 
 
-
 def stop(bot, update: Update):
-    logging.info('>>> start')
+    logging.info('>>> stop')
 
 
 TELEGRAM_BOT_TOKEN = accounts.TELEGRAM_DEV_DEMO_BOT # 생성한 bot token으로 변경해주세요
