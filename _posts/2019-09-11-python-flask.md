@@ -75,16 +75,14 @@ $ python3 app.py
 # 4.2. 웹 브라우저로 접근
 
 - http://127.0.0.1:5000
-![screenshot](https://apt-info.github.io/images/2019-09-11-python-flask/1.png)
+![screenshot](https://apt-info.github.io/images/2019-09-10-python-flask/1.png)
 
 - http://127.0.0.1:5000/sub
-![screenshot](https://apt-info.github.io/images/2019-09-11-python-flask/2.png)
-
+![screenshot](https://apt-info.github.io/images/2019-09-10-python-flask/2.png)
 두 페이지 모두 잘 처리 되었습니다.
 
 다음 시간에는 좀더 복잡한 요청에 대한 처리를 다뤄보도록 하겠습니다.
 
 # 5. 코드
-
 
 전체 코드는 [https://github.com/apt-info/samples/](https://github.com/apt-info/samples/blob/master/python/flask/1.%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/app.py) 에서 확인하실 수 있습니다.
