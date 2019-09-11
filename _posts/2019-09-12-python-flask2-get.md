@@ -75,11 +75,11 @@ def root():
 
 ![screenshot](https://apt-info.github.io/images/2019-09-12-python-flask2-get/2.png)
 
-### 3.2. 2개의 parameter를 전달
+### 3.3. 2개의 parameter를 전달
 
 ![screenshot](https://apt-info.github.io/images/2019-09-12-python-flask2-get/3.png)
 
-### 3.2. 한글 parameter 전달
+### 3.4. 한글 parameter 전달
 
 ![screenshot](https://apt-info.github.io/images/2019-09-12-python-flask2-get/4.png)
 
