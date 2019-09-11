@@ -85,4 +85,4 @@ $ python3 app.py
 
 # 5. 코드
 
-전체 코드는 [https://github.com/apt-info/samples/](https://github.com/apt-info/samples/blob/master/python/flask/1.%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/app.py) 에서 확인하실 수 있습니다.
+전체 코드는 [https://github.com/apt-info/samples/](https://github.com/apt-info/samples/blob/master/python/flask/1_setup/app.py) 에서 확인하실 수 있습니다.
