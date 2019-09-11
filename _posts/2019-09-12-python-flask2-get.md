@@ -69,19 +69,19 @@ def root():
 
 ### 3.1. parameter를 전달하지 않은 경우
 
-![screenshot](https://apt-info.github.io/images/2019-09-12-python-flask-get/1.png)
+![screenshot](https://apt-info.github.io/images/2019-09-12-python-flask2-get/1.png)
 
 ### 3.2. 1개의 parameter를 전달
 
-![screenshot](https://apt-info.github.io/images/2019-09-12-python-flask-get/2.png)
+![screenshot](https://apt-info.github.io/images/2019-09-12-python-flask2-get/2.png)
 
 ### 3.2. 2개의 parameter를 전달
 
-![screenshot](https://apt-info.github.io/images/2019-09-12-python-flask-get/3.png)
+![screenshot](https://apt-info.github.io/images/2019-09-12-python-flask2-get/3.png)
 
 ### 3.2. 한글 parameter 전달
 
-![screenshot](https://apt-info.github.io/images/2019-09-12-python-flask-get/4.png)
+![screenshot](https://apt-info.github.io/images/2019-09-12-python-flask2-get/4.png)
 
 # 5. 코드
 
