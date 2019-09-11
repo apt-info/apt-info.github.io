@@ -16,7 +16,7 @@ tags:
 
 지금까지 공부한 것
 
-* [(python) flask 1. 시작하기](https://github.com/apt-info/samples/blob/master/python/flask/1_setup_/app.py)
+* [(python) flask 1. 시작하기](https://apt-info.github.io/%EA%B0%9C%EB%B0%9C/python-flask/)
 
 ---
 
