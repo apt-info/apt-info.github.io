@@ -189,24 +189,8 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(viewPagerAdapter);
 
-        // TabLayout page change listener를 ViewPager의 page change listener에 연결
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-
-        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                // 선택된 Tab index로 ViewPager 아이템을 선택
-                viewPager.setCurrentItem(tab.getPosition());
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-            }
-        });
+        tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(viewPager));
     }
 }
 ```
