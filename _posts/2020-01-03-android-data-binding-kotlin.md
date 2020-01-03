@@ -10,18 +10,6 @@ tags:
 - mvvm
 ---
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 기본광고 -->
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-1142216861245946"
-    data-ad-slot="4805727019"
-    data-ad-format="auto"
-    data-full-width-responsive="true"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 Android(Kotlin) 에서 MVVM(Model-View-ViewModel)을 적용하기 위해 Data binding을 사용하는 방법을 알아보겠습니다.
 
 java로 MVVM을 사용하는 방법은 아래 페이지를 참고해주세요.
